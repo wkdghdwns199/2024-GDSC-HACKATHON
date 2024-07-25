@@ -13,7 +13,6 @@ public class User {
 
 	@Id
 	private String user_id;
-	private String user_pw;
 	private String user_name;
 	@Column(name = "create_time", updatable = false, insertable = false)
 	private Timestamp create_time;
